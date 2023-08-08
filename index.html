@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>spotify</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><img src="logo.png" alt="spotify">Spotify</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+      <div class="songlist">
+        <h1>Best of NCS - No copyright song</h1>
+       <div class="songItemcontainer">
+        <div class="songItem">
+            <img  alt="">
+            <span class="songNames"> </span>
+            <i class="songplay fa-solid fa-circle-play" id="1"></i>
+        </div>
+        <div class="songItem">
+            <img  alt="">
+            <span class="songNames"> </span>
+            <i class="songplay fa-solid fa-circle-play" id="2"></i>
+        </div>
+        <div class="songItem">
+            <img  alt="">
+            <span class="songNames"> </span>
+            <i class="songplay fa-solid fa-circle-play" id="3"></i>
+        </div>
+        <div class="songItem">
+            <img  alt="">
+            <span class="songNames"> </span>
+            <i class="songplay fa-solid fa-circle-play" id="4"></i>
+        </div>
+        <div class="songItem">
+            <img  alt="">
+            <span class="songNames"> </span>
+            <i class="songplay fa-solid fa-circle-play" id="5"></i>
+        </div>
+        <div class="songItem">
+            <img src="" alt="">
+            <span class="songNames"> </span>
+            <i class="songplay fa-solid fa-circle-play" id="6"></i>
+        </div>
+       </div>
+        
+      </div>
+      <div class="songbanneer"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" min="0" max="100" id="myprogressbar">
+        <div class="icons">
+            <i class=" fa-solid fa-2x fa-backward-step" id="previous_btn"></i>
+             <i class="fa-regular  fa-2x fa-circle-play" id="play_button"></i> <!-- hear fa-2x is use to size -->
+            <i class=" fa-solid fa-2x fa-forward-step" id="further_btn"></i>
+        </div>
+        <div class="beat" >
+            <img src="beat.gif" alt="" id="gif"><span id="song_bar_play_name">ay mere hum safar</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playfair:ital,wght@1,800&family=Satisfy&display=swap');
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Playfair', serif;
+font-family: 'Satisfy', cursive; */
+body{
+    /* background-color: aquamarine; */
+    background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,65,188,1) 42%, rgba(0,212,255,1) 85%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+}
+
+nav{
+ font-family: 'Satisfy', cursive;
+ height: 58px;
+ width: 100%;
+ background-color: black;
+ color: white;
+}
+nav ul {
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+ list-style: none;
+}
+ul a {
+    text-decoration: none;
+    color: rgb(211, 230, 229);
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    font-size: x-large;
+    align-items: center;
+    font-weight: bold;
+}
+li img{
+ height: 50px;
+}
+.container{
+    height: 65vh;
+    width: 70%;
+    margin:  20px auto;
+    background-image: url(musicbanner.webp);
+}
+
+.songItem{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(50, 46, 46);
+    border-radius: 20px;
+    margin: 5px 10px ;
+    color: white;
+}
+.songItemcontainer{
+   margin-top: 50px;
+}
+.songItem img {
+    height: 35px;
+    width: 35px;
+    border-radius: 15px;
+}
+.bottom{
+    background-color: black;
+    position: sticky;
+    height: 140px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#myprogressbar{
+    width: 80vw;
+}
+.fa-regular {
+    color: white;
+    /* margin-left: 10px; */
+}
+.fa-solid{
+    color: white;
+    /* margin-left: 10px; */
+    
+}
+.beat{
+    position: absolute;
+    display: flex;
+    left: 10%;
+    color: white;
+    
+}
+.beat img {
+    height: 25px;
+    width: 55px;
+    
+    margin:    0px  auto;
+    border-radius: 20px;
+
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-delay:0.1s ;
+    transition-timing-function: ease-in;
+
+    /* box-shadow: 5px 5px 5px 5px rgb(49, 7, 49); */
+}
